@@ -7,10 +7,7 @@ A professional ASP.NET Web Forms application for CarePlus, providing compassiona
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](Screenshots/homepage.png)
-
-### Services Section
-![Services](Screenshots/services.png)
+<img width="1919" height="992" alt="careplus-hero-section" src="https://github.com/user-attachments/assets/44866511-996a-4389-8da2-6f6370f05d87" />
 
 ## 🌟 Features
 
