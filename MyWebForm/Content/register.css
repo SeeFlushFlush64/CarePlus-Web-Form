@@ -1,0 +1,168 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .register-header h2 {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .register-header p {
+        color: #666;
+        font-size: 14px;
+    }
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-labels {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.form-inputs {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 2px solid #e1e8ed;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+    .form-inputs:focus {
+        outline: none;
+        border-color: #11998e;
+        background-color: white;
+        box-shadow: 0 0 0 3px rgba(17, 153, 142, 0.1);
+    }
+
+    .form-inputs::placeholder {
+        color: #adb5bd;
+    }
+
+.form-options {
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.terms-checkbox {
+    display: flex;
+    align-items: flex-start;
+    color: #666;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+    .terms-checkbox input[type="checkbox"] {
+        margin-right: 8px;
+        margin-top: 3px;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .terms-checkbox a {
+        color: #11998e;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+        .terms-checkbox a:hover {
+            color: #38ef7d;
+        }
+
+.form-buttons {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+    .form-buttons:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(17, 153, 142, 0.4);
+    }
+
+    .form-buttons:active {
+        transform: translateY(0);
+    }
+
+.login-link {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+    .login-link a {
+        color: #11998e;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+        .login-link a:hover {
+            color: #38ef7d;
+        }
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .register-container {
+        padding: 30px 25px;
+    }
+
+    .register-header h2 {
+        font-size: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+}
